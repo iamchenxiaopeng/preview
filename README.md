@@ -2,10 +2,11 @@
 ## 实现浏览器得预览功能，能预览word/excel等word文件，也能预览pdf文件
 使用方式<br/>
 
-先得有个文件地址，该地址必须得能用域名的方式访问，本地路径那种不行<br/>
+先得有个文件地址，该地址必须得能用**域名**的方式访问，本地路径那种不行<br/>
 
-let URL = "http://www.test.com/test.xlsx"
-<iframe src='http://view.officeapps.live.com/op/view.aspx?src=URL' width='100%' height='1000px' frameborder='1'>
+代码：
+
+<iframe src='https://view.officeapps.live.com/op/view.aspx?src=http://storage.xuetangx.com/public_assets/xuetangx/PDF/1.xls' width='100%' height='1000px' frameborder='1'>
  </iframe>
  
  
