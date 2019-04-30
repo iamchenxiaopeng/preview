@@ -10,7 +10,7 @@
  </iframe>
  
  
- 上面这种方式只能预览office文件，要预览pdf文件需要一个插件，官网：[PDFObject](https://pdfobject.com/)，下载：[PDFObject.js](http://jhyt.oss-cn-shanghai.aliyuncs.com/images/1531367199089_PDFObject.js)
+ 上面这种方式只能预览office文件，要预览pdf文件需要一个插件，官网：[PDFObject](https://pdfobject.com/)，下载：[PDFObject.js](https://github.com/pipwerks/PDFObject/)
  
  基本用法
  
