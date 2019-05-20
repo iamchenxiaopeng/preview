@@ -9,8 +9,7 @@
 <iframe src='https://view.officeapps.live.com/op/view.aspx?src=http://storage.xuetangx.com/public_assets/xuetangx/PDF/1.xls' width='100%' height='1000px' frameborder='1'>
  </iframe>
  
- 
- 上面这种方式只能预览office文件，要预览pdf文件使用一个标签：embed.
+ 上面这种方式只能预览office文件，要预览pdf文件使用一个标签：embed。
  
  <embed class="pdfobject" :src="./a.pdf" type="application/pdf" style="overflow: auto; width: 100%; height: 1000px;" internalinstanceid="5">
  
