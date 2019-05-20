@@ -10,7 +10,11 @@
  </iframe>
  
  
- 上面这种方式只能预览office文件，要预览pdf文件需要一个插件，官网：[PDFObject](https://pdfobject.com/)，下载：[PDFObject.js](https://github.com/iamchenxiaopeng/PDFObject)
+ 上面这种方式只能预览office文件，要预览pdf文件使用一个标签：embed.
+ 
+ <embed class="pdfobject" :src="./a.pdf" type="application/pdf" style="overflow: auto; width: 100%; height: 1000px;" internalinstanceid="5">
+ 
+ 或者下载一个插件（这个插件好像在vue中无法使用），官网：[PDFObject](https://pdfobject.com/)，下载：[PDFObject.js](https://github.com/iamchenxiaopeng/PDFObject)
  
  基本用法
  
